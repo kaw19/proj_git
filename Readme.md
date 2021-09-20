@@ -3,13 +3,13 @@ A extensão '.md' significa que o arquivo usa a linguagem de marcação **Markdo
 O nome 'Readme.md' é um padrão usado pelo **git** na exibição da página inicial do site **github**.
 
 **Comandos:**  
-$ git --version           
 - mostra a versão instalada em seu sistema  
-$ git init                
+$ git --version           
 - inicia um repositório git vazio em sua máquina local  
-$ git add                 
+$ git init                
 - coloca arquivo(s) no *staging* (ante-sala do palco)  
-$ git status              
+$ git add                 
 - mostra o status do *branch* com os arquivos a serem enviados ao repositório (*commit*)  
-$ git remote add origin https://github.com/kaw19/proj_git.git  
+$ git status              
 - faz a conexão com o repositório remoto no github  
+$ git remote add origin https://github.com/kaw19/proj_git.git  
