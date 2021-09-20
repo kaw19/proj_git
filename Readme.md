@@ -1,10 +1,10 @@
-Ol·, esse arquivo exibe informaÁıes sobre o projeto Git que tem por objetivo ensinar o uso do software de controle de versıes, **git**.
-A extens„o '.md' significa que o arquivo usa a linguagem de marcaÁ„o **Markdown** na sua composiÁ„o.
-O nome 'Readme.md' È um padr„o usado pelo **git** na exibiÁ„o da p·gina inicial do site **github**.
+Ol√°, esse arquivo exibe informa√ß√µes sobre o projeto Git que tem por objetivo ensinar o uso do software de controle de vers√µes, **git**.
+A extens√£o '.md' significa que o arquivo usa a linguagem de marca√ß√£o **Markdown** na sua composi√ß√£o.
+O nome 'Readme.md' √© um padr√£o usado pelo **git** na exibi√ß√£o da p√°gina inicial do site **github**.
 
 **Comandos:**
-$ git --version           - mostra a vers„o instalada em seu sistema
-$ git init                - inicia um repositÛrio git vazio em sua m·quina local
-$ git add                 - coloca arquivo(s) no *staging* (ante-sala do palco)
-$ git status              - mostra o status do *branch* com os arquivos a serem enviados ao repositÛrio (*commit*)
-$ git remote add origin https://github.com/kaw19/proj_git.git  - faz a conex„o com o repositÛrio remoto no github
+$ git --version           - mostra a vers√£o instalada em seu sistema  
+$ git init                - inicia um reposit√≥rio git vazio em sua m√°quina local  
+$ git add                 - coloca arquivo(s) no *staging* (ante-sala do palco)  
+$ git status              - mostra o status do *branch* com os arquivos a serem enviados ao reposit√≥rio (*commit*)  
+$ git remote add origin https://github.com/kaw19/proj_git.git  - faz a conex√£o com o reposit√≥rio remoto no github  
