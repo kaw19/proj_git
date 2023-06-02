@@ -18,5 +18,5 @@ $ git status
 - faz a conexão com o repositório remoto no github  
 $ git remote add origin https://github.com/kaw19/proj_git.git  
 
-- para ignorar um arquivo já rastreado (antes mesmo de adicionar uma regra para ignorá-lo no arquivo .gitignore)
+- para ignorar um arquivo já rastreado (antes mesmo de adicionar uma regra para ignorá-lo no arquivo .gitignore)  
 $ git rm --cached NOME_ARQ
