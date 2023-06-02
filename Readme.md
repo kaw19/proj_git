@@ -21,11 +21,13 @@ $ git remote add origin https://github.com/kaw19/proj_git.git
 - ignora um arquivo já rastreado (antes mesmo de adicionar uma regra para ignorá-lo no arquivo .gitignore)  
 $ git rm --cached NOME_ARQ   
 
-- cadastra variáveis globais do 'git', tais como user.name e user.email
+- cadastra variáveis globais do 'git', tais como *user.name* e *user.email*    
 git config --global user.name "kaw19"  
 git config --global user.email "eng.claudio.fleury@gmail.com"   
 
-<h3>Exemplo de Erro Clássico: nome do remoto errado, faltou a extensão '.git' no URL da 'origin'</h3>  
+- cria nova ramificação (*branch*) com o seguinte comando:   
+$ git checkout -b NOME_RAMO *   
+
 <h3>Exemplo de Erro Clássico:</h3>  
  Nome do repositório remoto errado -- faltou o nome do usuário no URL da 'origin'  
  
