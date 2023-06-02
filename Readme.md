@@ -26,14 +26,13 @@ git config --global user.name "kaw19"
 git config --global user.email "eng.claudio.fleury@gmail.com"   
 
 <h3>Exemplo de Erro Clássico: nome do remoto errado, faltou a extensão '.git' no URL da 'origin'</h3>  
-<span style="color:yellow">  
-    <p>PS C:\Users\profc\Desktop\disPET> git remote -v      </p>
-    <p>origin  github.com/kaw19/disPET (fetch)              </p>
-    origin  github.com/kaw19/disPET (push)          
+<h3>Exemplo de Erro Clássico:</h3>  
+ Nome do repositório remoto errado -- faltou o nome do usuário no URL da 'origin'  
+ 
     PS C:\Users\profc\Desktop\disPET> git remote add origin https://github.com/disPET.git       
     error: remote origin already exists.        
     PS C:\Users\profc\Desktop\disPET> git push origin master        
-    fatal: 'github.com/kaw19/disPET' does not appear to be a git repository  
+    fatal: 'github.com/kaw19/disPET' does not appear to be a git repository
     fatal: Could not read from remote repository.  
     Please make sure you have the correct access rights
     and the repository exists.
@@ -47,6 +46,4 @@ git config --global user.email "eng.claudio.fleury@gmail.com"
     PS C:\Users\profc\Desktop\disPET> git remote -v
     origin  https://github.com/kaw19/disPET.git (fetch)
     origin  https://github.com/kaw19/disPET.git (push)
-    PS C:\Users\profc\Desktop\disPET>
-  </span>
-
+    PS C:\Users\profc\Desktop\disPET>  
