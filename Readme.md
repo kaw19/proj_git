@@ -18,5 +18,9 @@ $ git status
 - faz a conexão com o repositório remoto no github  
 $ git remote add origin https://github.com/kaw19/proj_git.git  
 
-- para ignorar um arquivo já rastreado (antes mesmo de adicionar uma regra para ignorá-lo no arquivo .gitignore)  
-$ git rm --cached NOME_ARQ
+- ignora um arquivo já rastreado (antes mesmo de adicionar uma regra para ignorá-lo no arquivo .gitignore)  
+$ git rm --cached NOME_ARQ   
+
+- cadastra variáveis globais do 'git', tais como user.name e user.email
+git config --global user.name "kaw19" git config --global user.email "eng.claudio.fleury@gmail.com"   
+
