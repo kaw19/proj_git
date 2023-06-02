@@ -5,11 +5,18 @@ O nome 'Readme.md' é um padrão usado pelo **git** na exibição da página ini
 **Comandos:**  
 - mostra a versão instalada em seu sistema  
 $ git --version           
+
 - inicia um repositório git vazio em sua máquina local  
 $ git init                
+
 - coloca arquivo(s) no *staging* (ante-sala do palco)  
 $ git add                 
+
 - mostra o status do *branch* com os arquivos a serem enviados ao repositório (*commit*)  
 $ git status              
+
 - faz a conexão com o repositório remoto no github  
 $ git remote add origin https://github.com/kaw19/proj_git.git  
+
+- para ignorar um arquivo já rastreado (antes mesmo de adicionar uma regra para ignorá-lo no arquivo .gitignore)
+$ git rm --cached NOME_ARQ
