@@ -27,8 +27,8 @@ git config --global user.email "eng.claudio.fleury@gmail.com"
 
 <h3>Exemplo de Erro Clássico: nome do remoto errado, faltou a extensão '.git' no URL da 'origin'</h3>  
 <span style="color:yellow">  
-    PS C:\Users\profc\Desktop\disPET> git remote -v     
-    origin  github.com/kaw19/disPET (fetch)         
+    <p>PS C:\Users\profc\Desktop\disPET> git remote -v      </p>
+    <p>origin  github.com/kaw19/disPET (fetch)              </p>
     origin  github.com/kaw19/disPET (push)          
     PS C:\Users\profc\Desktop\disPET> git remote add origin https://github.com/disPET.git       
     error: remote origin already exists.        
